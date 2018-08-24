@@ -1,5 +1,4 @@
 # Graph-Clustering
-This project was carried out by Shivam Prasad during the summer internship at Indian Institute of Technology Hyderabad under the guidance of Dr. N.R. Aravind.
 
 GRAPH CLUSTERING ALGORITHM in C++. The algorithm uses the Quality function by Girvan-Newman to implement the clustering.                
 
