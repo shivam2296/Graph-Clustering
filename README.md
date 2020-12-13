@@ -23,6 +23,6 @@ where conn_edges(C1,C2) returns the number of connecting edges between cluster C
 2)At every step, two clusters C1 and C2 which have the highest Q value are merged.
 3)Step 2 is repeated till Q value for any two clusters is positive.
 
-#By default, the algorithm is run on the graph given in the following image:
+#By default, the code takes the graph given in the following image as input:
 
 ![alt text](https://github.com/shivam2296/Graph-Clustering/blob/master/sample.jpg)
