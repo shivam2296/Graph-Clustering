@@ -1,6 +1,8 @@
 # Bonding number of social graphs
 
-**Introduction:** <br /> 
+<div class="text-purple">
+  **Introduction:** <br /> 
+</div>
 
 Bonding number(d) is the smallest integer ‘d’ such that every person staying in touch with at least ‘d’ others guarantees the connectivity of the group.
 
