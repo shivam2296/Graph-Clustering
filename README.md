@@ -20,11 +20,11 @@ where conn_edges(C1,C2) returns the number of connecting edges between cluster C
       
 **STEPS**
 <br />
-1)Initially, each vertex is itself a cluster.
+1) Initially, each vertex is itself a cluster.
 <br />
-2)At every step, two clusters C1 and C2 which have the highest Q value are merged.
+2) At every step, two clusters C1 and C2 which have the highest Q value are merged.
 <br />
-3)Step 2 is repeated till Q value for any two clusters is positive.
+3) Step 2 is repeated till Q value for any two clusters is positive.
 
 #By default, the code takes the graph given in the following image as input:
 
