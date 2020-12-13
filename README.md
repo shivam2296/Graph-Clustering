@@ -18,7 +18,7 @@ The algorithm uses the Quality function(Q) by Girvan-Newman to implement the clu
 where **conn_edges(C1,C2)** returns the number of connecting edges between cluster C1 and cluster C2.
       **dccluster[C1]** stores the sum of degrees of each vertex in cluster C1.   
       
-**STEPS**<br />
+**Steps employed in Girvan-Newman graph clustering algorithm:**<br />
 1) Initially, each vertex is itself a cluster.<br />
 2) At every step, two clusters C1 and C2 which have the highest Q value are merged.<br />
 3) Step 2 is repeated till Q value for any two clusters is positive.
