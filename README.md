@@ -1,6 +1,6 @@
 # Bonding number of social graphs
 
-<u>**Introduction:**<u> <br /> 
+**Introduction:** <br /> 
 Bonding number(d) is the smallest integer ‘d’ such that every person staying in touch with at least ‘d’ others guarantees the connectivity of the group.
 
 We want to find lower bounds on the bonding number. The following is a simple strategy based on clustering:
