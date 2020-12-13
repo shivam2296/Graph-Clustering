@@ -19,11 +19,11 @@ where conn_edges(C1,C2) returns the number of connecting edges between cluster C
       dccluster[C1] stores the sum of degrees of each vertex in cluster C1.   
       
 **STEPS**
-\newline
+<br />
 1)Initially, each vertex is itself a cluster.
-\newline
+<br />
 2)At every step, two clusters C1 and C2 which have the highest Q value are merged.
-\newline
+<br />
 3)Step 2 is repeated till Q value for any two clusters is positive.
 
 #By default, the code takes the graph given in the following image as input:
