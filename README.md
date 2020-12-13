@@ -1,6 +1,17 @@
-# Graph-Clustering
+# Bonding number of social graphs
 
-GRAPH CLUSTERING ALGORITHM in C++. The algorithm uses the Quality function by Girvan-Newman to implement the clustering.                
+Bonding number(d) is the smallest integer‘d’ such that every person staying in touch with at least‘d’ others guarantees the connectivity of the group.
+
+We want to find lower bounds on the bonding number. The following is a simple strategy based on clustering:
+1. Find a clustering of the graph G.
+2. For each cluster Ci, let Hi be the disconnected graph formed by deleting edges between Ci and the rest of G.
+3. Find the maximum value of d such that some Hi is d-bonded.
+4. Output d + 1 as a lower bound on τ (G).
+
+As we can see, a major part of the solution demanded clustering the graph. 
+I implemented the Girvan-Newman graph clustering algorithm from scratch. (clustering_shivam.cpp) The algorithm of which is described below:
+
+The Girvan-Newman graph clustering algorithm uses the Quality function by Girvan-Newman to implement the clustering.      
 
 *quality function Q=(conn_edges(cluster1,cluster2)/m)-(dccluster[cluster1]*dccluster[cluster2])/(m*m);                  
 where conn_edges(C1,C2) returns the number of connecting edges between cluster C1 and cluster C2. 
