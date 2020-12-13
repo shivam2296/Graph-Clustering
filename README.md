@@ -1,4 +1,4 @@
-# Bonding number of social graphs(Internship at IIT Hyderabad)
+# Bonding number of social graphs
 
 **Introduction:** <br /> 
 
