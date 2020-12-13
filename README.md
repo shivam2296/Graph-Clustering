@@ -14,7 +14,7 @@ I implemented the Girvan-Newman graph clustering algorithm from scratch. (code: 
 **Girvan-Newman graph clustering algorithm:**
 The algorithm uses the Quality function by Girvan-Newman to implement the clustering.      
 
-quality function Q=(conn_edges(cluster1,cluster2)/m)-(dccluster[cluster1]\*dccluster[cluster2])/(m\*m);                  
+**quality function Q=(conn_edges(cluster1,cluster2)/m)-(dccluster[cluster1]\*dccluster[cluster2])/(m\*m)**                  
 where **conn_edges(C1,C2)** returns the number of connecting edges between cluster C1 and cluster C2.
       **dccluster[C1]** stores the sum of degrees of each vertex in cluster C1.   
       
