@@ -11,7 +11,7 @@ We want to find lower bounds on the bonding number. The following is a simple st
 As we can see, a major part of the solution demanded clustering the graph. 
 I implemented the Girvan-Newman graph clustering algorithm from scratch. (code: clustering_shivam.cpp) 
 
-**Girvan-Newman graph clustering algorithm**
+**Girvan-Newman graph clustering algorithm: **
 The algorithm uses the Quality function by Girvan-Newman to implement the clustering.      
 
 *quality function Q=(conn_edges(cluster1,cluster2)/m)-(dccluster[cluster1]*dccluster[cluster2])/(m*m);                  
